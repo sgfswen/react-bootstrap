@@ -1,0 +1,15 @@
+@import 'components/Global/SCSS/reset';
+@import 'components/Global/SCSS/base';
+
+body, html, #root, main {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background: material-color('grey','300');
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
